@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Logs and runtime artifacts
+**/log/
+*.log
+
+# Model checkpoints and training artifacts
+**/ckpt/
+**/model.ckpt-*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep existing nested ignore rules effective
