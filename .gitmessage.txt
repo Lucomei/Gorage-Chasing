@@ -1,0 +1,21 @@
+<type>: <summary>
+
+exp_id: exp-YYYYMMDD-XX
+goal: <what this experiment/change validates>
+changes:
+- <file/param change 1>
+- <file/param change 2>
+
+config:
+- map: <...>
+- treasure_count: <...>
+- buff_count: <...>
+- max_step: <...>
+
+metrics:
+- avg_treasure: <...>
+- win_rate: <...>
+- avg_steps: <...>
+- avg_score: <...>
+
+conclusion: <keep/revert/follow-up>
